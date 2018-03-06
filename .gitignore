@@ -1,0 +1,12 @@
+.vscode/settings.json
+./readings/*
+./searchable/*
+./searchable/txt/*
+./searchable/pdf/*
+readings/*
+searchable/*
+searchable/txt/*
+searchable/pdf/*
+searchable/pdf
+*.pdf
+*.txt

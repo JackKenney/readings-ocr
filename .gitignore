@@ -1,4 +1,3 @@
 .vscode/settings.json
-readings/*.pdf
-searchable/*.pdf
-searchable/txt/*.txt
+readings/*
+searchable/*

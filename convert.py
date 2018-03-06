@@ -24,6 +24,8 @@ for name in names:
     # Convert the files
     call(['pdfocr', '-i', read, '-o', out])
 
+call(['sh','text.sh']) # make txt files
+
 # Sources for python scripting:
 # https://docs.python.org/3/library/os.html#os.fwalk
 # https://stackoverflow.com/questions/1274506/how-can-i-create-a-list-of-files-in-the-current-directory-and-its-subdirectories

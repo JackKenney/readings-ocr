@@ -20,11 +20,11 @@ if not os.path.isdir('searchable'):
 for name in names:
     name = name[0:len(name)-4]
     read = './readings/' + name + '.pdf'
-    out  = './searchable/' + name + '-OCR.pdf'
+    out  = './searchable/pdf/' + name + '-OCR.pdf'
     # Convert the files
     call(['pdfocr', '-i', read, '-o', out])
 
-call(['sh','text.sh']) # make txt files
+call(['sh', 'text.sh']) # make txt files
 
 # Sources for python scripting:
 # https://docs.python.org/3/library/os.html#os.fwalk

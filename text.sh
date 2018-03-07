@@ -4,4 +4,5 @@ for f in ./searchable/pdf/*.pdf;
     do echo "$f";
     pdftotext "$f";
 done
-mv *.txt ../txt/
+mv searchable/pdf/*.txt searchable/txt/
+# mv ./searchable/pdf/*.txt ./searchable/txt/

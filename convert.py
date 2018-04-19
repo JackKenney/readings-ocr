@@ -23,6 +23,8 @@ for name in names:
     out  = './searchable/pdf/' + name + '-OCR.pdf'
     # Convert the files
     call(['pdfocr', '-i', read, '-o', out])
+    # Move files to read
+    call(['mv', 'readings/' + name + '.pdf', 'read/' + name + '.pdf'])
 
 call(['sh', 'text.sh']) # make txt files
 

@@ -2,7 +2,7 @@ import subprocess as sp
 import sys
 import pprint
 # uses local search.sh script.
-print('Looking for:', sys.argv)
+print('Looking for:', sys.argv[1:])
 sources = []
 for i in range(1, len(sys.argv)):
     try:

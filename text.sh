@@ -1,5 +1,7 @@
 #!/bin/bash
 # Converts PDFs to TXT files and moves them to txt folder
+# requires installation of pdftotext from:
+#   sudo apt-get install poppler-utils
 for f in ./searchable/pdf/*.pdf;
     do 
     echo "$f";

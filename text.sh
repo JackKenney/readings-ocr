@@ -1,7 +1,9 @@
 #!/bin/bash
+#
 # Converts PDFs to TXT files and moves them to txt folder
-# requires installation of pdftotext from:
+# Requires installation of pdftotext from:
 #   sudo apt-get install poppler-utils
+# 
 for f in ./searchable/pdf/*.pdf;
     do 
     echo "$f";
@@ -14,4 +16,3 @@ for g in ./searchable/pdf/*.txt;
     mv 'temp.txt' "$g";
 done
 mv searchable/pdf/*.txt searchable/txt/
-# mv ./searchable/pdf/*.txt ./searchable/txt/

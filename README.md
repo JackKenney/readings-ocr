@@ -8,15 +8,20 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
+What things you need to install the software and how to install them:
+* work on an Ubuntu 16.04 (64-bit) machine
 ```
 sudo apt install poppler-utils
 ```
 This program requires the installation of 'pdfocr' by Geza Kovacs
 Which can be found at 
 https://launchpad.net/~gezakovacs/+archive/ubuntu/pdfocr/+build/7671902
-
+* download pdfocr_0.1.5-1_wily1_all.deb from the "Built files section"
+* navigate terminal to where you downloaded the file and run
+```
+sudo dpkg -i 'pdfocr_0.1.5-1_wily1_all.deb'
+```
+* now you should be able to use pdfocr as a command in the convert.py file without a problem.
 ## File Use
 
 Use convert.py to make your pdfs in the 'readings' folder searchable in 'searchable/pdf/'

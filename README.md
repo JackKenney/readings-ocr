@@ -19,6 +19,9 @@ https://launchpad.net/~gezakovacs/+archive/ubuntu/pdfocr/+build/7671902
 * download pdfocr_0.1.5-1_wily1_all.deb from the "Built files section"
 * navigate terminal to where you downloaded the file and run
 ```
+sudo apt install tesseract-ocr cuneiform pdftk poppler-utils exactimage
+sudo apt -f install
+sudo apt install tesseract-ocr cuneiform pdftk poppler-utils exactimage
 sudo dpkg -i 'pdfocr_0.1.5-1_wily1_all.deb'
 ```
 * now you should be able to use pdfocr as a command in the convert.py file without a problem.

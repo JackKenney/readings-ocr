@@ -10,9 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them:
 * work on an Ubuntu 16.04 (64-bit) machine
-```
-sudo apt install poppler-utils
-```
+
 This program requires the installation of 'pdfocr' by Geza Kovacs
 Which can be found at 
 https://launchpad.net/~gezakovacs/+archive/ubuntu/pdfocr/+build/7671902
@@ -22,7 +20,7 @@ https://launchpad.net/~gezakovacs/+archive/ubuntu/pdfocr/+build/7671902
 sudo apt install tesseract-ocr cuneiform pdftk poppler-utils exactimage
 sudo apt -f install
 sudo apt install tesseract-ocr cuneiform pdftk poppler-utils exactimage
-sudo dpkg -i 'pdfocr_0.1.5-1_wily1_all.deb'
+sudo dpkg -i pdfocr_0.1.5-1_wily1_all.deb
 ```
 * now you should be able to use pdfocr as a command in the convert.py file without a problem.
 ## File Use
@@ -37,7 +35,8 @@ Search.sh is a bash utility used by search.py to find files with arguments.
 
 ## Built With
 
-* [Python](http://www.python.org/) - The web framework used
+* [Python](http://www.python.org/) - The primary language used.
+* [Bash]() - The Ubuntu 16.04 command line language used.
 
 ## Versioning
 
@@ -55,4 +54,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* My history teacher
+* My history teacher, Professor Georgy, for assigning so many readings :)
